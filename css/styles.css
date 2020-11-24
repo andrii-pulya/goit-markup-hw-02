@@ -1,0 +1,195 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-back-color: #ffffff;
+  --secondary-back-color: #f5f4fa;
+  --dark-back-color: #2f303a;
+}
+
+body {
+  background-color: var(--primary-white-color);
+  color: var(--primary-text-color);
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.03em;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h2,
+h3 {
+  color: var(--title-text-color);
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.167;
+}
+
+.primary-background {
+  background: var(--primary-back-color);
+}
+
+.secondary-background {
+  background: var(--secondary-back-color);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/* ===== Header ===== */
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+}
+
+.logo-first-part {
+  color: var(--accent-color);
+}
+
+.navigation-page {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+}
+
+.navigation-page:hover,
+.navigation-page:focus {
+  color: var(--accent-color);
+}
+
+.header-contacts {
+  font-size: 16px;
+  line-height: 1.188x;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
+.header-contacts:hover,
+.header-contacts:focus {
+  color: var(--accent-color);
+}
+
+/* ===== HERO ===== */
+h1 {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.364;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+}
+
+.hero {
+  background: var(--dark-back-color);
+}
+
+.hero-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+/* ===== Advantages =====*/
+.advantages-item {
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.advantages-details {
+  font-size: 14px;
+  line-height: 1.714;
+}
+
+/* ===== What we are doing ===== */
+
+/* ===== Our team ===== */
+.master-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.188;
+  letter-spacing: 0.03em;
+}
+
+.master-proffesion {
+  font-size: 16px;
+  line-height: 1.188;
+  letter-spacing: 0.03em;
+}
+
+/* ===== Footer ===== */
+.dark-back {
+  background: var(--dark-back-color);
+}
+
+.address-city {
+  font-size: 14px;
+  line-height: 1.714;
+  color: #ffffff;
+}
+
+.footer-contacts {
+  font-size: 14px;
+  line-height: 1.714;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/*========== PORTFOLIO ========== */
+.portfolio-button {
+  font-weight: 500;
+  font-size: 1.625;
+  line-height: 26px;
+  color: var(--title-text-color);
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+
+.portfolio-button:hover,
+.portfolio-button:focus {
+  color: #ffffff;
+  background: #2196f3;
+}
+
+.projects-name {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.projects-type {
+  font-size: 16px;
+  line-height: 1.875;
+  color: var(--primary-text-color);
+}
+
+/* 
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+CSS rules to specify families
+
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+
+*/ ;
