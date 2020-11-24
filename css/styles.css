@@ -16,6 +16,28 @@ body {
   font-style: normal;
 }
 
+a.is-current {
+  color: var(--accent-color);
+}
+
+.navigation-page {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+a.navigation-page:hover,
+a.navigation-page:focus {
+  color: var(--accent-color);
+}
+
+.list {
+  list-style: none;
+}
+
 h2,
 h3 {
   color: var(--title-text-color);
@@ -55,29 +77,20 @@ h2 {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.192;
+  text-decoration: none;
 }
 
 .logo-first-part {
   color: var(--accent-color);
 }
 
-.navigation-page {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.143;
-  letter-spacing: 0.02em;
-}
-
-.navigation-page:hover,
-.navigation-page:focus {
-  color: var(--accent-color);
-}
-
 .header-contacts {
+  color: var(--primary-text-color);
   font-size: 16px;
   line-height: 1.188x;
   font-weight: 500;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
 .header-contacts:hover,
@@ -85,13 +98,17 @@ h2 {
   color: var(--accent-color);
 }
 
+.header-contacts:visited {
+  color: var(--primary-text-color);
+}
 /* ===== HERO ===== */
-h1 {
+.hero-title {
+  color: #ffffff;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.364;
   letter-spacing: 0.06em;
-  color: #ffffff;
+  text-align: center;
 }
 
 .hero {
@@ -99,14 +116,15 @@ h1 {
 }
 
 .hero-button {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+
+  color: #ffffff;
+  background: #2196f3;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.875;
   letter-spacing: 0.06em;
-  color: #ffffff;
-  background: #2196f3;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
 }
 
 /* ===== Advantages =====*/
@@ -123,7 +141,9 @@ h1 {
 }
 
 /* ===== What we are doing ===== */
-
+.section-title {
+  text-align: center;
+}
 /* ===== Our team ===== */
 .master-name {
   font-weight: 500;
@@ -144,14 +164,23 @@ h1 {
 }
 
 .address-city {
+  color: #ffffff;
   font-size: 14px;
   line-height: 1.714;
-  color: #ffffff;
+  text-decoration: none;
 }
 
+.address-city:visited {
+  color: #ffffff;
+}
 .footer-contacts {
+  color: rgba(255, 255, 255, 0.6);
   font-size: 14px;
   line-height: 1.714;
+  text-decoration: none;
+}
+
+.footer-contacts:visited {
   color: rgba(255, 255, 255, 0.6);
 }
 
