@@ -212,6 +212,11 @@ a.navigation-page:focus {
 }
 
 .hero-button {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 32px;
+  padding-left: 32px;
+
   display: block;
   min-height: 50px;
   min-width: 200px;
@@ -369,7 +374,30 @@ a.navigation-page:focus {
 }
 
 /*========== PORTFOLIO ========== */
+.portfolio {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.portfolio-main {
+  margin-bottom: 50px;
+}
+
+.portfolio-list {
+  display: flex;
+  justify-content: center;
+}
+
+.portfolio-filter:not(:last-child) {
+  margin-right: 8px;
+}
+
 .portfolio-button {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-right: 22px;
+  padding-left: 22px;
+
   font-weight: 500;
   font-size: 1.625;
   line-height: 26px;
@@ -384,11 +412,33 @@ a.navigation-page:focus {
   background: #2196f3;
 }
 
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -15px;
+}
+
+.projects > li {
+  margin: 15px;
+
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+}
+
 .projects-item {
   text-decoration: none;
 }
 
+.projects-item > img {
+  margin-bottom: 20px;
+  border: 0px;
+  width: 370px;
+}
+
 .projects-name {
+  margin-bottom: 4px;
+}
+.projects-item .projects-name {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
